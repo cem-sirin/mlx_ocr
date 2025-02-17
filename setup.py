@@ -2,8 +2,15 @@ from setuptools import setup, find_packages
 
 setup(
     name="mlx-ocr",
-    version="0.1.1",
+    version="0.1.0",
     packages=find_packages(),
+    include_package_data=True,  # Include package data files
+    package_data={
+        "mlx_ocr": [
+            "misc/vocabs/*.txt",
+            "misc/fonts/*.ttf",
+        ]
+    },  # Include txt files in mlx_ocr/misc/vocabs
     install_requires=["mlx>=0.0.5", "numpy>=1.21.0", "pillow>=8.0.0"],
     author="Cem Sirin",
     description="An OCR library implemented in MLX",

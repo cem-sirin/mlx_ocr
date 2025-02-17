@@ -23,7 +23,7 @@ from .postprocess.rec_tokenizer import CTCLabelDecode
 
 logger = setup_logger(__name__)
 PROJECT_ROOT = osp.dirname(osp.dirname(osp.dirname(osp.abspath(__file__))))
-FONT_PATH = osp.join(PROJECT_ROOT, "mlx_ocr", "fonts", "roboto_condensed.ttf")
+FONT_PATH = osp.join(PROJECT_ROOT, "mlx_ocr", "misc", "fonts", "roboto_condensed.ttf")
 
 
 class TextDetector:
