@@ -16,7 +16,7 @@ pip install mlx-ocr
 Then, badabim badabum, you can use the library like this:
 
 ```python
-from mlx_ocr.models import MLXOCR
+from mlx_ocr import MLXOCR
 
 ocr = MLXOCR(det_lang="eng", rec_lang="eng")
 img = "path/to/image.jpg"
