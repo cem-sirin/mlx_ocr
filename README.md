@@ -13,7 +13,7 @@ Install the library using pip:
 ```bash
 pip install mlx-ocr
 ```
-Then, badabim badabum, you can use the library like this:
+Then, just a few lines of code to get started:
 
 ```python
 from mlx_ocr import MLXOCR
