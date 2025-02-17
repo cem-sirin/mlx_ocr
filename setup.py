@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="mlx-ocr",
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
     install_requires=["mlx>=0.0.5", "numpy>=1.21.0", "pillow>=8.0.0"],
     author="Cem Sirin",
