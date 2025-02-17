@@ -89,7 +89,6 @@ def get_weight_path(task: str, lang: str, option: str = None) -> Union[str, Tupl
 
     options = [f for f in os.listdir(weight_dir) if f.endswith(".pdparams")]
     if len(options) > 1:
-        print(option is None)
         if option is None:
             logger.info(
                 f"Note: there are multiple options available: {options}. Defaulting to first. You can set the option using the `select_model` argument."
