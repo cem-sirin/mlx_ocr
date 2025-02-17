@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+test.py
+
+# Folders
+weights/
+notebooks/
+configsPP/
+scripts/
+temp/
+demo/
+
+# MacOS
+.DS_Store
+
+# Test files
+*.pdf
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.log
