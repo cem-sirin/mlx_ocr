@@ -32,3 +32,4 @@ var/
 .installed.cfg
 *.egg
 *.log
+update_library.sh
